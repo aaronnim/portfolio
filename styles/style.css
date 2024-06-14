@@ -1,0 +1,188 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background-color: rgb(238, 238, 238);
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .cool-spiel h3 a {
+  color: black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 3rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.home {
+  padding: 3rem;
+}
+.home .catching-phrase {
+  position: relative;
+  left: 41%;
+  top: 100%;
+  transform: translate(-57%, 0%);
+  width: 60%;
+  margin-bottom: 5rem;
+}
+.home .catching-phrase h1 {
+  font-size: 3rem;
+}
+.home .catching-phrase .small-phrase {
+  width: 80%;
+  margin: 1rem 0 1rem 0;
+}
+.home .catching-phrase .small-phrase h3 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  text-align: justify;
+}
+.home .phrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+}
+.home .phrase .phrase-wrapper {
+  width: 90%;
+}
+.home .phrase .phrase-wrapper .phrase-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home .phrase .phrase-wrapper .phrase-container .number {
+  padding: 1rem;
+}
+.home .phrase .phrase-wrapper .phrase-container .motto {
+  font-size: x-large;
+  text-align: justify;
+  width: 70%;
+}
+.home .phrase .phrase-wrapper .phrase-container .motto p {
+  padding: 1rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.about .about-content-container {
+  width: 90%;
+  padding: 1rem;
+  margin: 5rem 0 5rem 0;
+}
+.about .about-content-container .about-skills .skills_title {
+  font-size: 5rem;
+}
+.about .about-content-container .about-skills .skills_content_container {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about .about-content-container .about-skills .skills_content_container img {
+  margin: 5rem 0 5rem 0;
+}
+.about .about-content-container .about-intro-name {
+  font-size: 2rem;
+  margin-bottom: 8rem;
+}
+.about .about-content-container .services-h1 {
+  font-size: 5rem;
+  padding: 1rem 1rem 1rem 0;
+  border-bottom: 2px solid rgb(170, 170, 170);
+}
+.about .about-content-container .serv-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem 0 4rem 0;
+  border-bottom: 2px solid rgb(170, 170, 170);
+}
+.about .about-content-container .serv-1 p {
+  font-size: 1.2rem;
+}
+.about .about-content-container .serv-1 .num {
+  width: 15%;
+}
+.about .about-content-container .serv-1 .title {
+  width: 30;
+}
+.about .about-content-container .serv-1 .desc {
+  width: 50%;
+}
+.about .photos-container {
+  margin: 5rem 0 5rem 0;
+  padding: 1rem;
+}
+.about .photos-container .photos-title-spiel h1 {
+  font-size: 5rem;
+}
+.about .photos-container .photos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about .photos-container .photos-container .photo {
+  border-radius: 10px;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.projects .my-websites {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.projects .my-websites h1 {
+  font-size: 5rem;
+  padding: 1rem 1rem 1rem 0;
+  border-bottom: 2px solid rgb(170, 170, 170);
+}
+.projects .my-websites iframe {
+  height: 700px;
+  width: 1000px;
+  margin: 3rem 0 3rem 0;
+  border-radius: 15px;
+  box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gbtt {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
